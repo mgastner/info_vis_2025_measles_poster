@@ -3,10 +3,11 @@ title: "References"
 format: html
 ---
 
-*   R Core Team (2025). _R: A Language and Environment for Statistical Computing_. R Foundation for
-  Statistical Computing, Vienna, Austria. <https://www.R-project.org/>
-*   STATS Indiana (2021, Oct). _State-Level Census Counts, 1900 to 2020_. Indiana Business Research Center. <https://www.stats.indiana.edu/population/PopTotals/historic_counts_states.asp>
-*   Van Panhuis, W., Cross, A., & Burke, D. (2018). _Counts of Measles reported in UNITED STATES OF AMERICA: 1888-2002 (2.0) [Data set]. Project Tycho. <https://doi.org/10.25337/T7/ptycho.v2.0/US.14189004>
+*   Brewer, C. (2014, January 4). _ColorBrewer: Color Advice for Maps_. Pennsylvania State University. <https://colorbrewer2.org>
+*   DeBold, T. and Friedman, D. (2015, February 11). Battling Infectious Diseases in the 20th Century: The Impact of Vaccines. _The Wall Street Journal_. <https://graphics.wsj.com/infectious-diseases-and-vaccines/>
+*   Lee, M. (2017, June 28). Reproducing the WSJ Measles Vaccination Chart Using R. <https://www.mikelee.co/posts/2017-06-28-wsj-measles-vaccination-chart>
+*   STATS Indiana (2021, October). _State-Level Census Counts, 1900 to 2020_. Indiana Business Research Center. <https://www.stats.indiana.edu/population/PopTotals/historic_counts_states.asp>
+*   Van Panhuis, W., Cross, A., & Burke, D. (2018). _Counts of Measles reported in UNITED STATES OF AMERICA: 1888-2002 (2.0)_ [Data set]. Project Tycho. <https://doi.org/10.25337/T7/ptycho.v2.0/US.14189004>
 *   Wickham H, Averick M, Bryan J, Chang W, McGowan LD, François R, Grolemund G, Hayes A, Henry L,
   Hester J, Kuhn M, Pedersen TL, Miller E, Bache SM, Müller K, Ooms J, Robinson D, Seidel DP,
   Spinu V, Takahashi K, Vaughan D, Wilke C, Woo K, Yutani H (2019). Welcome to the tidyverse.
