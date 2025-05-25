@@ -3,6 +3,7 @@ title: "Visualizing Measles Incidence in the USA (1928--2001)"
 subtitle: "Data Preparation"
 format: html
 bibliography: measles.bib
+csl: "harvard-cite-them-right.csl"
 ---
 
 
@@ -79,10 +80,13 @@ include_graphics("images/wsj.png")
 #| message: false
 
 measles <-
-  "US.14189004.csv" |>
+  "US.14189004.csv.zip" |>
+  unzip() |>
   read_csv() |>
   filter(is.na(Admin2Name), PartOfCumulativeCountSeries == 0) |>
   select(Admin1Name, Admin1ISO, PeriodStartDate, PeriodEndDate, CountValue)
+zip("US.14189004.csv.zip", "US.14189004.csv")
+file.remove("US.14189004.csv")
 measles
 ```
 
